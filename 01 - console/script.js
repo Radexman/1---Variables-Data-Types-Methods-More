@@ -1,0 +1,12 @@
+console.log(100);
+console.log('Hello World');
+console.log(20, 'Hello', false);
+const x = 100;
+console.table({ name: 'Radek', email: 'Radeg69gmail' });
+console.group('simple');
+console.log(x);
+console.error('alert');
+console.warn('warning');
+console.groupEnd();
+const styles = 'padding: 10px; background-color: white color: black';
+console.log('%cHello World', styles);
