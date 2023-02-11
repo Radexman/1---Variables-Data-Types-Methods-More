@@ -1,12 +1,16 @@
-console.log(100);
-console.log('Hello World');
-console.log(20, 'Hello', false);
-const x = 100;
-console.table({ name: 'Radek', email: 'Radeg69gmail' });
 console.group('simple');
+console.log('Hello!');
+console.log('Radek', 23, false);
+let x = 100;
 console.log(x);
-console.error('alert');
-console.warn('warning');
-console.groupEnd();
-const styles = 'padding: 10px; background-color: white color: black';
-console.log('%cHello World', styles);
+console.error('Something is wrong!');
+console.warn('This is your last warning');
+console.groupEnd('simple');
+const person = {
+	name: 'Radek',
+	age: 23,
+};
+console.table(person);
+
+const styles = 'padding: 10px; background-color: white; color: green;';
+console.log('%cHello', styles);
