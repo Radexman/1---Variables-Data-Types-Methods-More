@@ -4,10 +4,16 @@
 
 // console.log(myNewString);
 
-const myString = 'developer';
+// const myString = 'DEVELOPER';
 
-const toProperCase = (string) => {
-	return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-};
+// const toProperCase = (string) => {
+// 	return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+// };
 
-console.log(toProperCase(myString));
+// console.log(toProperCase(myString));
+
+// const getRandomChar = (string) => {
+// 	return string.charAt(Math.floor(Math.random() * string.length));
+// };
+
+// console.log(getRandomChar(myString));
