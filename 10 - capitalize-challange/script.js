@@ -17,3 +17,12 @@
 // };
 
 // console.log(getRandomChar(myString));
+let amount = 1;
+// let x = parseInt(amount);
+// x = +amount;
+// x = Number(amount);
+// amount = String(amount);
+// amount = amount.toString();
+// amount = parseFloat(amount);
+amount = Boolean(amount);
+console.log(amount, typeof amount);
