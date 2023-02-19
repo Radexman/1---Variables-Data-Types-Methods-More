@@ -10,4 +10,5 @@ d = d.getTime();
 d = d.valueOf();
 d = new Date(1676799000000);
 d = Math.floor(Date.now() / 1000);
+d = new Date();
 console.log(d);
